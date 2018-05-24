@@ -1,0 +1,33 @@
+{
+  "name": "pm2-logzio",
+  "version": "1.0.0",
+  "description": "PM2 Logz.io Module",
+  "main": "app.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "ip": "^1.1.5",
+    "lodash": "^4.17.10",
+    "logzio-nodejs": "^0.4.10",
+    "pm2": "^2.10.4",
+    "pmx": "beta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/workframers/pm2-logzio.git"
+  },
+  "config": {
+    "api_token": "",
+    "env_key_name": "env",
+    "default_env": "dev",
+    "log_string_as_message": true
+  },
+  "apps": [
+    {
+      "merge_logs": true,
+      "max_memory_restart": "200M",
+      "script": "app.js"
+    }
+  ],
+  "author": "Dave Kozma <dave@workframe.com>",
+  "license": "MIT"
+}
