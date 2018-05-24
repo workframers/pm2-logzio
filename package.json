@@ -4,7 +4,6 @@
   "description": "PM2 Logz.io Module",
   "main": "app.js",
   "dependencies": {
-    "bluebird": "^3.5.1",
     "ip": "^1.1.5",
     "lodash": "^4.17.10",
     "logzio-nodejs": "^0.4.10",
