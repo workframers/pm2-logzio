@@ -24,8 +24,8 @@ pm2 set pm2-logzio:log_string_as_message false
 
 ```
 # Install
-$ pm2 install pm2-logzio
+$ pm2 install workframers/pm2-logzio
 
 # Uninstall
-$ pm2 uninstall pm2-logzio
+$ pm2 uninstall workframers/pm2-logzio
 ```
